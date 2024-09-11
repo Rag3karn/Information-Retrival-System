@@ -34,7 +34,11 @@ GOOGLE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```bash
 
 # Finally run the follwing command
+<<<<<<< HEAD
 ```
+=======
+
+>>>>>>> a02914374ae157731363228f05561cfa72b0aa9d
 streamlit run app.py
 ```
 
