@@ -1,5 +1,5 @@
 import os
-from PyPDF2 import PdfReader
+import pdfreader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.embeddings import GooglePalmEmbeddings
 from langchain.llms import GooglePalm
@@ -15,7 +15,7 @@ os.environ['GOOGLE_API_KEY'] = GOOGLE_API_KEY
 def get_pdf_text(pdf_docs):
     text = ""
     for pdf in pdf_docs:
-        pdf_reader = PdfReader(pdf)
+        pdf_reader = pdfreader(pdf)
         for page in pdf_reader.pages:
             text += page.extract_text()
         return
