@@ -6,42 +6,42 @@
 
 Clone the Repository
 
-'''bash
+```bash
 Project Repo:
-'''
+```
 
 ### Step 01: Create a conda environment after opening the repository
 
-'''bash
+```bash
 conda create -n llmapp python=3.12 -y
-'''
+```
 
-'''bash
+```bash
 conda create llmapp
-
+```
 ### STEP 02: Install the requirements
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 ### STEP 03: Create a '.env' file in the root directory and add your GOOGLE_API_KEY as follows
 
-'''ini
+```ini
 GOOGLE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-'''
+```
 
-'''bash
+```bash
 
 # Finally run the follwing command
-'''
+
 streamlit run app.py
-'''
+```
 
 Now,
-'''bash
+```bash
 open up : <http://localhost:8501>
-'''
+```
 
 ### Techstack used
 
