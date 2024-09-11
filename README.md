@@ -27,24 +27,20 @@ pip install -r requirements.txt
 
 ### STEP 03: Create a '.env' file in the root directory and add your GOOGLE_API_KEY as follows
 
-```ini
+```
 GOOGLE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 ```bash
 
 # Finally run the follwing command
-<<<<<<< HEAD
-```
-=======
 
->>>>>>> a02914374ae157731363228f05561cfa72b0aa9d
 streamlit run app.py
 ```
 
 Now,
 ```bash
-open up : <http://localhost:8501>
+open up : http://localhost:8501
 ```
 
 ### Techstack used
