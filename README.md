@@ -4,12 +4,6 @@
 
 ### Steps
 
-Clone the Repository
-
-```bash
-Project Repo:
-```
-
 ### Step 01: Create a conda environment after opening the repository
 
 ```bash
